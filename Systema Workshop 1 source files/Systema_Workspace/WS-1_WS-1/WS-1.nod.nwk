@@ -1,0 +1,70 @@
+
+#**********************************************#
+#                                              #
+#     Nodal Description created by Thermica    #
+#                                              #
+#**********************************************#
+
+$INFOS
+
+#  Nodal description
+#  --------------------
+#
+#  File : WS-1.nod.nwk
+#  Version : Thermica  V.4.8.0 released on August 2016
+#  Executed on : Wed Oct 31 16:25:06 2018
+#  Input files :
+#    - Sysset : WS-1.sysset
+
+$GLOBAL
+   $LOCALS
+      # Black_Paint
+      REAL EPS_Black_Paint  = 0.900;
+      REAL ALP_Black_Paint  = 0.930;
+$ENDGLOBAL
+
+
+$ENTITIES
+
+$NODES
+
+   # Geometrical Nodes
+  D       100 = '/Platform/MLI           ', T= 0.000, A= 2.000E+000, C= 0.0000E+000, ALP= 0.520, EPS= 0.750;
+  D       200 = '/Platform/MLI           ', T= 0.000, A= 2.000E+000, C= 0.0000E+000, ALP= 0.520, EPS= 0.750;
+  D       300 = '/Platform/MLI           ', T= 0.000, A= 2.000E+000, C= 0.0000E+000, ALP= 0.520, EPS= 0.750;
+  D       400 = '/Platform/MLI           ', T= 0.000, A= 2.000E+000, C= 0.0000E+000, ALP= 0.520, EPS= 0.750;
+  D       500 = '/Platform/MLI           ', T= 0.000, A= 2.000E+000, C= 0.0000E+000, ALP= 0.520, EPS= 0.750;
+  D       600 = '/Platform/MLI           ', T= 0.000, A= 2.000E+000, C= 0.0000E+000, ALP= 0.520, EPS= 0.750;
+  D      1000 = '/Platform/Radiator      ', T= 0.000, A= 3.850E-001, C= 0.0000E+000, ALP= 0.150, EPS= 0.750;
+  D      1100 = '/Platform/Radiator      ', T= 0.000, A= 2.312E-001, C= 0.0000E+000, ALP= 0.150, EPS= 0.750;
+  D      2000 = '/Payload                ', T= 0.000, A= 5.655E-001, C= 0.0000E+000, ALP= ALP_Black_Paint, EPS= EPS_Black_Paint;
+  B  99999999 = 'Space Node', T= -269.000;
+
+
+
+
+
+$CONTROLS
+   DATE50 = 2.409621E+004;
+   PERIOD = 6.056000E+003;
+
+
+$EVENTS
+
+   $TIMESTEP
+   $OUTPUT
+      # Earth_PenumbraIN_0   =  0.000000E+000 [PERIOD];
+      # Earth_PenumbraOUT_0  =  8.428125E+002 [PERIOD];
+      # Earth_EclipseIN_1   =  0.000000E+000 [PERIOD];
+      # Earth_EclipseOUT_1  =  8.334375E+002 [PERIOD];
+      # Earth_PenumbraIN_3   =  4.824711E+003 [PERIOD];
+      # Earth_PenumbraOUT_3  =  6.056000E+003 [PERIOD];
+      # Earth_EclipseIN_4   =  4.834086E+003 [PERIOD];
+      # Earth_EclipseOUT_4  =  6.056000E+003 [PERIOD];
+
+
+$ARRAYS
+   CHARACTER* SEQNAME(1) = 'Default';
+
+   REAL* SEQNB(2,*) =
+       0.000000E+000,  1;

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SYSML SYSML_VERSION="1.7" CONTENTS="MATERIAL" SAVEDATE="1538647056" SYSTEMA_VERSION="4.8.0">
+    <DATA_STRUCTURE NAME="WS-Part1-Material_Database.sysmtr" REFSET_ID="{debe7a6a-b1f8-43e9-92dc-07c04f3dee62}">
+        <DATA_NODE TYPE="MATERIAL" REFOBJ_ID="2" NAME="WS-Part1-Material_Database">
+            <DATA_NODE TYPE="MATERIALDATA" REFOBJ_ID="3" NAME="Kapton">
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Thermo_optical_IR_%P_Default">
+                    <PROP_CATEGORY ID="Thermo_optical_IR" NAME="Thermo-optical IR">
+                        <ELEM TYPE="VALUE" ID="Diffuse_TransE" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Direct_TransE" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Epsilon" VALUE="0.75"/>
+                        <ELEM TYPE="VALUE" ID="SpecE" VALUE="0"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Thermo_optical_UV_%P_Default">
+                    <PROP_CATEGORY ID="Thermo_optical_UV" NAME="Thermo-optical UV">
+                        <ELEM TYPE="VALUE" ID="Alpha" VALUE="0.52"/>
+                        <ELEM TYPE="VALUE" ID="Diffuse_TransA" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Direct_TransA" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="SpecA" VALUE="0"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+            <DATA_NODE TYPE="MATERIALDATA" REFOBJ_ID="4" NAME="SSM">
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Thermo_optical_IR_%P_Default">
+                    <PROP_CATEGORY ID="Thermo_optical_IR" NAME="Thermo-optical IR">
+                        <ELEM TYPE="VALUE" ID="Diffuse_TransE" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Direct_TransE" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Epsilon" VALUE="0.75"/>
+                        <ELEM TYPE="VALUE" ID="SpecE" VALUE="0"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Thermo_optical_UV_%P_Default">
+                    <PROP_CATEGORY ID="Thermo_optical_UV" NAME="Thermo-optical UV">
+                        <ELEM TYPE="VALUE" ID="Alpha" VALUE="0.15"/>
+                        <ELEM TYPE="VALUE" ID="Diffuse_TransA" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Direct_TransA" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="SpecA" VALUE="0"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+            <DATA_NODE TYPE="MATERIALDATA" REFOBJ_ID="5" NAME="Black Paint">
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Thermo_optical_IR_%P_Default">
+                    <PROP_CATEGORY ID="Thermo_optical_IR" NAME="Thermo-optical IR">
+                        <ELEM TYPE="VALUE" ID="Diffuse_TransE" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Direct_TransE" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Epsilon" VALUE="0.9"/>
+                        <ELEM TYPE="VALUE" ID="SpecE" VALUE="0"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+                <NODE_ATTRIBUTE TYPE="MATERIAL_CATEG" NAME="MATERIAL_CATEG_Thermica_Thermo_optical_UV_%P_Default">
+                    <PROP_CATEGORY ID="Thermo_optical_UV" NAME="Thermo-optical UV">
+                        <ELEM TYPE="VALUE" ID="Alpha" VALUE="0.93"/>
+                        <ELEM TYPE="VALUE" ID="Diffuse_TransA" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="Direct_TransA" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="SpecA" VALUE="0"/>
+                    </PROP_CATEGORY>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+            <NODE_ATTRIBUTE TYPE="PHASES" NAME="PHASES">
+                <ELEM DEFAULT="Default phase" TYPE="PHASES">
+                    <ELEM TYPE="STRING" NAME="Default phase" STR="Default"/>
+                </ELEM>
+            </NODE_ATTRIBUTE>
+        </DATA_NODE>
+    </DATA_STRUCTURE>
+</SYSML>

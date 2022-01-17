@@ -1,0 +1,85 @@
+
+#***********************************************#
+#                                               #
+# Radiative couplings (IR) computed by Thermica #
+#                                               #
+#***********************************************#
+
+$INFOS
+
+#  IR couplings
+#  ------------
+#
+#  File : WS-1.gr.nwk
+#  Version : Thermica  V.4.8.0 released on August 2016
+#  Executed on : Wed Oct 31 16:24:45 2018
+#  Input files :
+#    - Sysset : WS-1.sysset
+#  Parameters :
+#    - Enclosure : -1
+#    - IR computation : 1
+#    - UV computation : 1
+#    - Space couplings : Yes
+#    - Reciprocal REF filter : 0.0001
+#    - Random seed : 876743
+#    - Ray emission (high criticity) :
+#       - Number of rays per thermal node : 50000
+#    - Ray emission (normal criticity) :
+#       - Number of rays per thermal node : 10000
+#    - Ray emission (low criticity) :
+#       - Number of rays per thermal node : 1000
+#    - Ray threshold : 0.01
+#    - Number of space divisions : 20
+
+$CONDUCTORS
+
+
+# Enclosure : 0
+#------------
+
+
+   # Couplings from node 100
+     #GR( 100 , 100 )	=	4.389606E-002;
+      GR( 100 , 200 )	=	1.422569E-001;
+      GR( 100 , 300 )	=	1.425344E-001;
+      GR( 100 , 400 )	=	1.428879E-001;
+      GR( 100 , 500 )	=	1.359343E-001;
+      GR( 100 , 600 )	=	1.424487E-001;
+      GR( 100 , 99999999 )	=	7.500000E-001;
+   # Couplings from node 200
+     #GR( 200 , 200 )	=	4.414775E-002;
+      GR( 200 , 300 )	=	1.422068E-001;
+      GR( 200 , 400 )	=	1.363144E-001;
+      GR( 200 , 500 )	=	1.422831E-001;
+      GR( 200 , 600 )	=	1.429108E-001;
+      GR( 200 , 99999999 )	=	7.500000E-001;
+   # Couplings from node 300
+     #GR( 300 , 300 )	=	6.189211E-002;
+      GR( 300 , 400 )	=	1.426718E-001;
+      GR( 300 , 500 )	=	1.423766E-001;
+      GR( 300 , 600 )	=	1.352782E-001;
+      GR( 300 , 1100 )	=	6.933300E-002;
+      GR( 300 , 99999999 )	=	6.630505E-001;
+   # Couplings from node 400
+     #GR( 400 , 400 )	=	5.957530E-002;
+      GR( 400 , 500 )	=	1.425946E-001;
+      GR( 400 , 600 )	=	1.427016E-001;
+      GR( 400 , 2000 )	=	1.956555E-001;
+      GR( 400 , 99999999 )	=	5.379337E-001;
+   # Couplings from node 500
+     #GR( 500 , 500 )	=	4.416281E-002;
+      GR( 500 , 600 )	=	1.426593E-001;
+      GR( 500 , 99999999 )	=	7.500000E-001;
+   # Couplings from node 600
+     #GR( 600 , 600 )	=	7.240933E-002;
+      GR( 600 , 1000 )	=	1.154685E-001;
+      GR( 600 , 99999999 )	=	6.054781E-001;
+   # Couplings from node 1000
+     #GR( 1000 , 1000 )	=	2.871109E-002;
+      GR( 1000 , 99999999 )	=	1.445820E-001;
+   # Couplings from node 1100
+     #GR( 1100 , 1100 )	=	1.719508E-002;
+      GR( 1100 , 99999999 )	=	8.688244E-002;
+   # Couplings from node 2000
+     #GR( 2000 , 2000 )	=	5.852246E-002;
+      GR( 2000 , 99999999 )	=	2.548183E-001;

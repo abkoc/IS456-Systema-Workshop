@@ -1,0 +1,63 @@
+
+*------------------------------------*
+*                                    *
+*   SYSTEMA V4 APPLICATION LOG FILE  *
+*                                    *
+*------------------------------------*
+
+
+
+              **********
+
+      Nodal Description
+
+
+Execution started on Wed Oct 31 16:25:06 2018
+
+
+
+State  1 : Model Initialisation                                                Time :  Wed Oct 31 16:25:06 2018
+
+State  2 : Thermal Data Loading                                                Time :  Wed Oct 31 16:25:06 2018
+
+State  3 : Contact Management                                                  Time :  Wed Oct 31 16:25:06 2018
+
+
+State  4 : Mission Data Loading                                                Time :  Wed Oct 31 16:25:06 2018
+
+Nb eclipse event: 2
+Nb penumbra event: 2
+Nb arc event: 1
+Nb sequence event: 0
+
+
+NODE PARAMETERS
+---------------
+
+ - output             : SOL
+ - output nwk         : WS-1.nod.nwk
+
+MODEL INFO
+----------
+
+ - nb models       : 1
+ - nb surfaces     : 9
+ - nb mesh         : 9
+ - nb volumes      : 0
+ - nb vmesh        : 0
+ Model names :
+   - 
+
+
+State  5 : Network Output generation                                           Time :  Wed Oct 31 16:25:06 2018
+
+State  6 : Adding specific items                                               Time :  Wed Oct 31 16:25:06 2018
+
+
+
+
+Execution completed on Wed Oct 31 16:25:06 2018
+
+
+
+

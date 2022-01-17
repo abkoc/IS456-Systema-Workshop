@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SYSML SYSML_VERSION="1.7" CONTENTS="RESULT" SAVEDATE="1540999529" SYSTEMA_VERSION="4.8.0">
+    <RESULT NAME="WS-1_WS-1">
+        <RESULT_SET FILE_TYPE="MISSION_SET" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.sysset" TYPE="FILE" FILE_NAME="WS-1.sysset" FILE_FORMAT="sysset"/>
+        <RESULT_SET FILE_TYPE="MISSION_DATA" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.html" TYPE="FILE" FILE_NAME="WS-1.html" FILE_FORMAT="html"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.nod.log" TYPE="FILE" FILE_NAME="WS-1.nod.log" FILE_FORMAT="LOG"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.nod.nwk" TYPE="FILE" FILE_NAME="WS-1.nod.nwk" FILE_FORMAT="NWK"/>
+        <RESULT_SET FILE_TYPE="HDF5" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.rad.h5" TYPE="FILE" FILE_NAME="WS-1.rad.h5" FILE_FORMAT="h5"/>
+        <RESULT_SET FILE_TYPE="HDF5" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.box.h5" TYPE="FILE" FILE_NAME="WS-1.box.h5" FILE_FORMAT="h5"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.rad.log" TYPE="FILE" FILE_NAME="WS-1.rad.log" FILE_FORMAT="LOG"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.gb.txt" TYPE="FILE" FILE_NAME="WS-1.gb.txt" FILE_FORMAT="TXT"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.gr.nwk" TYPE="FILE" FILE_NAME="WS-1.gr.nwk" FILE_FORMAT="NWK"/>
+        <RESULT_SET FILE_TYPE="HDF5" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.sf.h5" TYPE="FILE" FILE_NAME="WS-1.sf.h5" FILE_FORMAT="h5"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.sf.log" TYPE="FILE" FILE_NAME="WS-1.sf.log" FILE_FORMAT="LOG"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.sf.nwk" TYPE="FILE" FILE_NAME="WS-1.sf.nwk" FILE_FORMAT="NWK"/>
+        <RESULT_SET FILE_TYPE="HDF5" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.pf.h5" TYPE="FILE" FILE_NAME="WS-1.pf.h5" FILE_FORMAT="h5"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.pf.log" TYPE="FILE" FILE_NAME="WS-1.pf.log" FILE_FORMAT="LOG"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.pf.nwk" TYPE="FILE" FILE_NAME="WS-1.pf.nwk" FILE_FORMAT="NWK"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.dck" TYPE="FILE" FILE_NAME="WS-1.dck" FILE_FORMAT="DCK"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.temp.log" TYPE="FILE" FILE_NAME="WS-1.temp.log" FILE_FORMAT="LOG"/>
+        <RESULT_SET FILE_TYPE="CSV" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.temp.csv" TYPE="FILE" FILE_NAME="WS-1.temp.csv" FILE_FORMAT="CSV"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.temp.out" TYPE="FILE" FILE_NAME="WS-1.temp.out" FILE_FORMAT="OUT"/>
+        <RESULT_SET FILE_TYPE="HDF5" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.temp.h5" TYPE="FILE" FILE_NAME="WS-1.temp.h5" FILE_FORMAT="h5"/>
+        <RESULT_SET FILE_TYPE="XLS" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.xls" TYPE="FILE" FILE_NAME="WS-1.xls" FILE_FORMAT="xls"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="H:/Systema_Workspace/WS-1_WS-1/WS-1.txt" TYPE="FILE" FILE_NAME="WS-1.txt" FILE_FORMAT="txt"/>
+    </RESULT>
+</SYSML>

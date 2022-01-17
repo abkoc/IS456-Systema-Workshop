@@ -1,0 +1,585 @@
+
+*------------------------------------*
+*                                    *
+*   SYSTEMA V4 APPLICATION LOG FILE  *
+*                                    *
+*------------------------------------*
+
+
+
+              **********
+
+   Planet Fluxes Computation
+
+
+Execution started on Wed Oct 31 16:24:50 2018
+
+
+
+State  1 : Model Initialisation                                                Time :  Wed Oct 31 16:24:50 2018
+
+State  2 : Thermal Data Loading                                                Time :  Wed Oct 31 16:24:50 2018
+
+State  3 : Mission Data Loading                                                Time :  Wed Oct 31 16:24:50 2018
+
+Nb eclipse event: 2
+Nb penumbra event: 2
+Nb arc event: 1
+Nb sequence event: 0
+
+DUMP PLANET FLUXES PARAMS
+-------------------------
+
+  - model name         : WS-1.sysset
+  - enclosure          : -1
+  - Albedo computation : 1
+  - IR computation : 1
+  - Flux filter : 0.1
+  - Earth temperature : 264.15 264.15
+  - Earth albedo coefficient : 0.35
+  - Sun constant       : Automatic
+
+
+PROPERTY MAPS
+-------------
+
+
+     Planet   (Albedo   IR)
+  EARTH        -1     -1
+
+  => Number of maps : 0
+
+
+
+MODEL INFO
+----------
+
+ - nb models       : 1
+ - nb surfaces     : 9
+ - nb mesh         : 9
+ - nb volumes      : 0
+ - nb vmesh        : 0
+ Model names :
+   - 
+
+
+ MISSION INFO
+ ------------
+
+ - number of times                : 77
+     -    1 -> 24096.2088987 GAMMA50   -> simulation time        0.00 seconds
+     -    2 -> 24096.2098723 GAMMA50   -> simulation time       84.11 seconds
+     -    3 -> 24096.2108458 GAMMA50   -> simulation time      168.22 seconds
+     -    4 -> 24096.2118193 GAMMA50   -> simulation time      252.33 seconds
+     -    5 -> 24096.2127928 GAMMA50   -> simulation time      336.45 seconds
+     -    6 -> 24096.2137663 GAMMA50   -> simulation time      420.56 seconds
+     -    7 -> 24096.2147398 GAMMA50   -> simulation time      504.67 seconds
+     -    8 -> 24096.2157133 GAMMA50   -> simulation time      588.78 seconds
+     -    9 -> 24096.2166869 GAMMA50   -> simulation time      672.89 seconds
+     -   10 -> 24096.2176604 GAMMA50   -> simulation time      757.00 seconds
+     -   11 -> 24096.2186339 GAMMA50   -> simulation time      841.12 seconds
+     -   12 -> 24096.2196074 GAMMA50   -> simulation time      925.23 seconds
+     -   13 -> 24096.2205809 GAMMA50   -> simulation time     1009.34 seconds
+     -   14 -> 24096.2215544 GAMMA50   -> simulation time     1093.45 seconds
+     -   15 -> 24096.2225279 GAMMA50   -> simulation time     1177.56 seconds
+     -   16 -> 24096.2235015 GAMMA50   -> simulation time     1261.67 seconds
+     -   17 -> 24096.2244750 GAMMA50   -> simulation time     1345.79 seconds
+     -   18 -> 24096.2254485 GAMMA50   -> simulation time     1429.90 seconds
+     -   19 -> 24096.2264220 GAMMA50   -> simulation time     1514.01 seconds
+     -   20 -> 24096.2273124 GAMMA50   -> simulation time     1590.94 seconds
+     -   21 -> 24096.2273955 GAMMA50   -> simulation time     1598.12 seconds
+     -   22 -> 24096.2274209 GAMMA50   -> simulation time     1600.31 seconds
+     -   23 -> 24096.2283690 GAMMA50   -> simulation time     1682.23 seconds
+     -   24 -> 24096.2293425 GAMMA50   -> simulation time     1766.34 seconds
+     -   25 -> 24096.2303161 GAMMA50   -> simulation time     1850.46 seconds
+     -   26 -> 24096.2312896 GAMMA50   -> simulation time     1934.57 seconds
+     -   27 -> 24096.2322631 GAMMA50   -> simulation time     2018.68 seconds
+     -   28 -> 24096.2332366 GAMMA50   -> simulation time     2102.79 seconds
+     -   29 -> 24096.2342101 GAMMA50   -> simulation time     2186.90 seconds
+     -   30 -> 24096.2351836 GAMMA50   -> simulation time     2271.01 seconds
+     -   31 -> 24096.2361571 GAMMA50   -> simulation time     2355.13 seconds
+     -   32 -> 24096.2371307 GAMMA50   -> simulation time     2439.24 seconds
+     -   33 -> 24096.2381042 GAMMA50   -> simulation time     2523.35 seconds
+     -   34 -> 24096.2390777 GAMMA50   -> simulation time     2607.46 seconds
+     -   35 -> 24096.2400512 GAMMA50   -> simulation time     2691.57 seconds
+     -   36 -> 24096.2410247 GAMMA50   -> simulation time     2775.68 seconds
+     -   37 -> 24096.2419982 GAMMA50   -> simulation time     2859.80 seconds
+     -   38 -> 24096.2429717 GAMMA50   -> simulation time     2943.91 seconds
+     -   39 -> 24096.2439453 GAMMA50   -> simulation time     3028.02 seconds
+     -   40 -> 24096.2449188 GAMMA50   -> simulation time     3112.13 seconds
+     -   41 -> 24096.2458923 GAMMA50   -> simulation time     3196.24 seconds
+     -   42 -> 24096.2468658 GAMMA50   -> simulation time     3280.35 seconds
+     -   43 -> 24096.2478393 GAMMA50   -> simulation time     3364.47 seconds
+     -   44 -> 24096.2488128 GAMMA50   -> simulation time     3448.58 seconds
+     -   45 -> 24096.2497863 GAMMA50   -> simulation time     3532.69 seconds
+     -   46 -> 24096.2507599 GAMMA50   -> simulation time     3616.80 seconds
+     -   47 -> 24096.2517334 GAMMA50   -> simulation time     3700.91 seconds
+     -   48 -> 24096.2527069 GAMMA50   -> simulation time     3785.02 seconds
+     -   49 -> 24096.2536804 GAMMA50   -> simulation time     3869.14 seconds
+     -   50 -> 24096.2546539 GAMMA50   -> simulation time     3953.25 seconds
+     -   51 -> 24096.2556274 GAMMA50   -> simulation time     4037.36 seconds
+     -   52 -> 24096.2566009 GAMMA50   -> simulation time     4121.47 seconds
+     -   53 -> 24096.2575745 GAMMA50   -> simulation time     4205.58 seconds
+     -   54 -> 24096.2585480 GAMMA50   -> simulation time     4289.69 seconds
+     -   55 -> 24096.2595215 GAMMA50   -> simulation time     4373.80 seconds
+     -   56 -> 24096.2604950 GAMMA50   -> simulation time     4457.92 seconds
+     -   57 -> 24096.2614685 GAMMA50   -> simulation time     4542.03 seconds
+     -   58 -> 24096.2624420 GAMMA50   -> simulation time     4626.14 seconds
+     -   59 -> 24096.2634155 GAMMA50   -> simulation time     4710.25 seconds
+     -   60 -> 24096.2643891 GAMMA50   -> simulation time     4794.36 seconds
+     -   61 -> 24096.2653626 GAMMA50   -> simulation time     4878.47 seconds
+     -   62 -> 24096.2663356 GAMMA50   -> simulation time     4962.55 seconds
+     -   63 -> 24096.2673092 GAMMA50   -> simulation time     5046.66 seconds
+     -   64 -> 24096.2682827 GAMMA50   -> simulation time     5130.77 seconds
+     -   65 -> 24096.2692562 GAMMA50   -> simulation time     5214.88 seconds
+     -   66 -> 24096.2702297 GAMMA50   -> simulation time     5299.00 seconds
+     -   67 -> 24096.2712032 GAMMA50   -> simulation time     5383.11 seconds
+     -   68 -> 24096.2721767 GAMMA50   -> simulation time     5467.22 seconds
+     -   69 -> 24096.2731502 GAMMA50   -> simulation time     5551.33 seconds
+     -   70 -> 24096.2735077 GAMMA50   -> simulation time     5582.21 seconds
+     -   71 -> 24096.2736162 GAMMA50   -> simulation time     5591.59 seconds
+     -   72 -> 24096.2741238 GAMMA50   -> simulation time     5635.44 seconds
+     -   73 -> 24096.2750973 GAMMA50   -> simulation time     5719.55 seconds
+     -   74 -> 24096.2760708 GAMMA50   -> simulation time     5803.67 seconds
+     -   75 -> 24096.2770443 GAMMA50   -> simulation time     5887.78 seconds
+     -   76 -> 24096.2780178 GAMMA50   -> simulation time     5971.89 seconds
+     -   77 -> 24096.2789913 GAMMA50   -> simulation time     6056.00 seconds
+ - number of kinematics bodies    : 0
+ - mission kind                   :  Static
+
+ SUN :
+ -----
+      time 0  	-   distance : 1.4717e+008  	- direction : 0.194181 0.939758 -0.281334
+      time 84.1116  	-   distance : 1.47169e+008  	- direction : 0.275298 0.919272 -0.281336
+      time 168.223  	-   distance : 1.47169e+008  	- direction : 0.354323 0.891798 -0.281338
+      time 252.335  	-   distance : 1.47169e+008  	- direction : 0.430654 0.857546 -0.281341
+      time 336.447  	-   distance : 1.47169e+008  	- direction : 0.503712 0.816775 -0.281343
+      time 420.558  	-   distance : 1.47168e+008  	- direction : 0.57294 0.769795 -0.281345
+      time 504.67  	-   distance : 1.47168e+008  	- direction : 0.637814 0.716963 -0.281348
+      time 588.781  	-   distance : 1.47168e+008  	- direction : 0.69784 0.658682 -0.28135
+      time 672.893  	-   distance : 1.47167e+008  	- direction : 0.75256 0.595393 -0.281353
+      time 757.005  	-   distance : 1.47167e+008  	- direction : 0.801561 0.527579 -0.281356
+      time 841.116  	-   distance : 1.47166e+008  	- direction : 0.844468 0.455754 -0.281358
+      time 925.228  	-   distance : 1.47165e+008  	- direction : 0.880956 0.380464 -0.281361
+      time 1009.34  	-   distance : 1.47165e+008  	- direction : 0.910747 0.302282 -0.281364
+      time 1093.45  	-   distance : 1.47164e+008  	- direction : 0.933615 0.221801 -0.281367
+      time 1177.56  	-   distance : 1.47164e+008  	- direction : 0.949386 0.139635 -0.28137
+      time 1261.67  	-   distance : 1.47163e+008  	- direction : 0.957939 0.0564063 -0.281373
+      time 1345.79  	-   distance : 1.47162e+008  	- direction : 0.959211 -0.027251 -0.281376
+      time 1429.9  	-   distance : 1.47162e+008  	- direction : 0.95319 -0.110701 -0.281379
+      time 1514.01  	-   distance : 1.47161e+008  	- direction : 0.939923 -0.19331 -0.281382
+      time 1590.94  	-   distance : 1.47161e+008  	- direction : 0.92153 -0.267593 -0.281384
+      time 1598.12  	-   distance : 1.47161e+008  	- direction : 0.919511 -0.27445 -0.281384
+      time 1600.31  	-   distance : 1.47161e+008  	- direction : 0.918885 -0.276539 -0.281385
+      time 1682.23  	-   distance : 1.4716e+008  	- direction : 0.892108 -0.353504 -0.281387
+      time 1766.34  	-   distance : 1.4716e+008  	- direction : 0.857923 -0.42987 -0.28139
+      time 1850.46  	-   distance : 1.47159e+008  	- direction : 0.817215 -0.502968 -0.281393
+      time 1934.57  	-   distance : 1.47159e+008  	- direction : 0.770295 -0.572243 -0.281396
+      time 2018.68  	-   distance : 1.47158e+008  	- direction : 0.717519 -0.637167 -0.281398
+      time 2102.79  	-   distance : 1.47158e+008  	- direction : 0.659287 -0.697247 -0.281401
+      time 2186.9  	-   distance : 1.47157e+008  	- direction : 0.596043 -0.752027 -0.281403
+      time 2271.01  	-   distance : 1.47157e+008  	- direction : 0.528268 -0.801089 -0.281406
+      time 2355.13  	-   distance : 1.47157e+008  	- direction : 0.456476 -0.844061 -0.281408
+      time 2439.24  	-   distance : 1.47156e+008  	- direction : 0.381214 -0.880616 -0.28141
+      time 2523.35  	-   distance : 1.47156e+008  	- direction : 0.303053 -0.910476 -0.281413
+      time 2607.46  	-   distance : 1.47156e+008  	- direction : 0.222588 -0.933413 -0.281415
+      time 2691.57  	-   distance : 1.47156e+008  	- direction : 0.140431 -0.949254 -0.281417
+      time 2775.68  	-   distance : 1.47156e+008  	- direction : 0.0572068 -0.957878 -0.281419
+      time 2859.8  	-   distance : 1.47156e+008  	- direction : -0.0264526 -0.95922 -0.28142
+      time 2943.91  	-   distance : 1.47156e+008  	- direction : -0.109911 -0.953269 -0.281422
+      time 3028.02  	-   distance : 1.47156e+008  	- direction : -0.192533 -0.94007 -0.281424
+      time 3112.13  	-   distance : 1.47156e+008  	- direction : -0.273692 -0.919724 -0.281425
+      time 3196.24  	-   distance : 1.47156e+008  	- direction : -0.352769 -0.892386 -0.281427
+      time 3280.35  	-   distance : 1.47156e+008  	- direction : -0.429165 -0.858263 -0.281428
+      time 3364.47  	-   distance : 1.47157e+008  	- direction : -0.502297 -0.817616 -0.281429
+      time 3448.58  	-   distance : 1.47157e+008  	- direction : -0.57161 -0.770752 -0.28143
+      time 3532.69  	-   distance : 1.47157e+008  	- direction : -0.636577 -0.718029 -0.281431
+      time 3616.8  	-   distance : 1.47158e+008  	- direction : -0.696705 -0.659847 -0.281432
+      time 3700.91  	-   distance : 1.47158e+008  	- direction : -0.751535 -0.596649 -0.281433
+      time 3785.02  	-   distance : 1.47159e+008  	- direction : -0.800652 -0.528915 -0.281434
+      time 3869.14  	-   distance : 1.47159e+008  	- direction : -0.843682 -0.45716 -0.281435
+      time 3953.25  	-   distance : 1.4716e+008  	- direction : -0.880297 -0.38193 -0.281436
+      time 4037.36  	-   distance : 1.4716e+008  	- direction : -0.91022 -0.303797 -0.281436
+      time 4121.47  	-   distance : 1.47161e+008  	- direction : -0.933223 -0.223355 -0.281437
+      time 4205.58  	-   distance : 1.47161e+008  	- direction : -0.949132 -0.141215 -0.281438
+      time 4289.69  	-   distance : 1.47162e+008  	- direction : -0.957825 -0.0580019 -0.281438
+      time 4373.8  	-   distance : 1.47163e+008  	- direction : -0.959236 0.0256517 -0.281439
+      time 4457.92  	-   distance : 1.47163e+008  	- direction : -0.953356 0.10911 -0.281439
+      time 4542.03  	-   distance : 1.47164e+008  	- direction : -0.940228 0.191738 -0.28144
+      time 4626.14  	-   distance : 1.47164e+008  	- direction : -0.919952 0.272909 -0.281441
+      time 4710.25  	-   distance : 1.47165e+008  	- direction : -0.892684 0.352004 -0.281441
+      time 4794.36  	-   distance : 1.47165e+008  	- direction : -0.858629 0.428423 -0.281442
+      time 4878.47  	-   distance : 1.47166e+008  	- direction : -0.818048 0.501585 -0.281443
+      time 4962.55  	-   distance : 1.47166e+008  	- direction : -0.77127 0.570904 -0.281444
+      time 5046.66  	-   distance : 1.47167e+008  	- direction : -0.718611 0.635915 -0.281445
+      time 5130.77  	-   distance : 1.47167e+008  	- direction : -0.660489 0.696091 -0.281446
+      time 5214.88  	-   distance : 1.47168e+008  	- direction : -0.597346 0.750976 -0.281447
+      time 5299  	-   distance : 1.47168e+008  	- direction : -0.529663 0.800153 -0.281448
+      time 5383.11  	-   distance : 1.47168e+008  	- direction : -0.457954 0.843246 -0.281449
+      time 5467.22  	-   distance : 1.47169e+008  	- direction : -0.382764 0.87993 -0.28145
+      time 5551.33  	-   distance : 1.47169e+008  	- direction : -0.304665 0.909925 -0.281452
+      time 5582.21  	-   distance : 1.47169e+008  	- direction : -0.275379 0.919212 -0.281452
+      time 5591.59  	-   distance : 1.47169e+008  	- direction : -0.26643 0.921846 -0.281452
+      time 5635.44  	-   distance : 1.47169e+008  	- direction : -0.22425 0.933004 -0.281453
+      time 5719.55  	-   distance : 1.47169e+008  	- direction : -0.142131 0.94899 -0.281455
+      time 5803.67  	-   distance : 1.47169e+008  	- direction : -0.0589316 0.957763 -0.281456
+      time 5887.78  	-   distance : 1.47169e+008  	- direction : 0.0247158 0.959255 -0.281458
+      time 5971.89  	-   distance : 1.47169e+008  	- direction : 0.108175 0.953456 -0.28146
+      time 6056  	-   distance : 1.47169e+008  	- direction : 0.190812 0.940409 -0.281462
+
+ PLANETS :
+ ---------
+  Planet 0 - 4 : Earth      time 0  	-   distance : 7178.14  	- direction : 0 1 -1.06286e-012
+      time 84.1116  	-   distance : 7178.14  	- direction : 0 1 1.06286e-012
+      time 168.223  	-   distance : 7178.14  	- direction : 1.06286e-012 1 -1.06286e-012
+      time 252.335  	-   distance : 7178.14  	- direction : 0 1 -1.06286e-012
+      time 336.447  	-   distance : 7178.14  	- direction : 2.12573e-012 1 1.06286e-012
+      time 420.558  	-   distance : 7178.14  	- direction : 0 1 0
+      time 504.67  	-   distance : 7178.14  	- direction : -2.12573e-012 1 0
+      time 588.781  	-   distance : 7178.14  	- direction : 0 1 0
+      time 672.893  	-   distance : 7178.14  	- direction : 0 1 0
+      time 757.005  	-   distance : 7178.14  	- direction : 2.12573e-012 1 0
+      time 841.116  	-   distance : 7178.14  	- direction : 0 1 0
+      time 925.228  	-   distance : 7178.14  	- direction : 0 1 -1.06286e-012
+      time 1009.34  	-   distance : 7178.14  	- direction : -2.12573e-012 1 -1.06286e-012
+      time 1093.45  	-   distance : 7178.14  	- direction : 0 1 1.06286e-012
+      time 1177.56  	-   distance : 7178.14  	- direction : 4.25146e-012 1 0
+      time 1261.67  	-   distance : 7178.14  	- direction : -4.25146e-012 1 1.06286e-012
+      time 1345.79  	-   distance : 7178.14  	- direction : -4.25146e-012 1 1.06286e-012
+      time 1429.9  	-   distance : 7178.14  	- direction : 0 1 0
+      time 1514.01  	-   distance : 7178.14  	- direction : -4.25146e-012 1 0
+      time 1590.94  	-   distance : 7178.14  	- direction : 4.25146e-012 1 -1.06286e-012
+      time 1598.12  	-   distance : 7178.14  	- direction : 2.12573e-012 1 -1.06286e-012
+      time 1600.31  	-   distance : 7178.14  	- direction : -2.12573e-012 1 0
+      time 1682.23  	-   distance : 7178.14  	- direction : 0 1 0
+      time 1766.34  	-   distance : 7178.14  	- direction : 2.12573e-012 1 0
+      time 1850.46  	-   distance : 7178.14  	- direction : 0 1 0
+      time 1934.57  	-   distance : 7178.14  	- direction : -2.12573e-012 1 -1.06286e-012
+      time 2018.68  	-   distance : 7178.14  	- direction : 0 1 0
+      time 2102.79  	-   distance : 7178.14  	- direction : -2.12573e-012 1 0
+      time 2186.9  	-   distance : 7178.14  	- direction : 0 1 0
+      time 2271.01  	-   distance : 7178.14  	- direction : 2.12573e-012 1 1.06286e-012
+      time 2355.13  	-   distance : 7178.14  	- direction : 0 1 -1.06286e-012
+      time 2439.24  	-   distance : 7178.14  	- direction : 1.06286e-012 1 0
+      time 2523.35  	-   distance : 7178.14  	- direction : -1.06286e-012 1 0
+      time 2607.46  	-   distance : 7178.14  	- direction : 0 1 -1.06286e-012
+      time 2691.57  	-   distance : 7178.14  	- direction : 0 1 0
+      time 2775.68  	-   distance : 7178.14  	- direction : -1.32858e-013 1 0
+      time 2859.8  	-   distance : 7178.14  	- direction : 0 1 0
+      time 2943.91  	-   distance : 7178.14  	- direction : 0 1 -1.06286e-012
+      time 3028.02  	-   distance : 7178.14  	- direction : 0 1 0
+      time 3112.13  	-   distance : 7178.14  	- direction : 0 1 0
+      time 3196.24  	-   distance : 7178.14  	- direction : -1.06286e-012 1 0
+      time 3280.35  	-   distance : 7178.14  	- direction : 0 1 -1.06286e-012
+      time 3364.47  	-   distance : 7178.14  	- direction : 0 1 1.06286e-012
+      time 3448.58  	-   distance : 7178.14  	- direction : 2.12573e-012 1 2.12573e-012
+      time 3532.69  	-   distance : 7178.14  	- direction : 0 1 0
+      time 3616.8  	-   distance : 7178.14  	- direction : 0 1 0
+      time 3700.91  	-   distance : 7178.14  	- direction : 0 1 -1.06286e-012
+      time 3785.02  	-   distance : 7178.14  	- direction : 0 1 1.06286e-012
+      time 3869.14  	-   distance : 7178.14  	- direction : 0 1 1.06286e-012
+      time 3953.25  	-   distance : 7178.14  	- direction : 0 1 -1.06286e-012
+      time 4037.36  	-   distance : 7178.14  	- direction : -2.12573e-012 1 0
+      time 4121.47  	-   distance : 7178.14  	- direction : 0 1 -1.06286e-012
+      time 4205.58  	-   distance : 7178.14  	- direction : 0 1 2.12573e-012
+      time 4289.69  	-   distance : 7178.14  	- direction : 0 1 0
+      time 4373.8  	-   distance : 7178.14  	- direction : 0 1 1.06286e-012
+      time 4457.92  	-   distance : 7178.14  	- direction : 0 1 2.12573e-012
+      time 4542.03  	-   distance : 7178.14  	- direction : -4.25146e-012 1 0
+      time 4626.14  	-   distance : 7178.14  	- direction : -2.12573e-012 1 -1.06286e-012
+      time 4710.25  	-   distance : 7178.14  	- direction : 2.12573e-012 1 0
+      time 4794.36  	-   distance : 7178.14  	- direction : -4.25146e-012 1 0
+      time 4878.47  	-   distance : 7178.14  	- direction : -2.12573e-012 1 -1.06286e-012
+      time 4962.55  	-   distance : 7178.14  	- direction : 0 1 0
+      time 5046.66  	-   distance : 7178.14  	- direction : 0 1 0
+      time 5130.77  	-   distance : 7178.14  	- direction : 0 1 1.06286e-012
+      time 5214.88  	-   distance : 7178.14  	- direction : 0 1 1.06286e-012
+      time 5299  	-   distance : 7178.14  	- direction : 0 1 0
+      time 5383.11  	-   distance : 7178.14  	- direction : 1.06286e-012 1 2.12573e-012
+      time 5467.22  	-   distance : 7178.14  	- direction : 0 1 0
+      time 5551.33  	-   distance : 7178.14  	- direction : 1.06286e-012 1 0
+      time 5582.21  	-   distance : 7178.14  	- direction : 0 1 1.06286e-012
+      time 5591.59  	-   distance : 7178.14  	- direction : 0 1 0
+      time 5635.44  	-   distance : 7178.14  	- direction : 1.06286e-012 1 0
+      time 5719.55  	-   distance : 7178.14  	- direction : 0 1 1.06286e-012
+      time 5803.67  	-   distance : 7178.14  	- direction : 2.65716e-013 1 0
+      time 5887.78  	-   distance : 7178.14  	- direction : -1.32858e-013 1 1.06286e-012
+      time 5971.89  	-   distance : 7178.14  	- direction : 0 1 -1.06286e-012
+      time 6056  	-   distance : 7178.14  	- direction : 5.31432e-013 1 0
+
+ EVENTS :
+ --------
+  Event 0
+     type   : 1
+     planet : Earth
+     tin    : 2.409621E+004
+     tout   : 2.409622E+004
+  Event 1
+     type   : 2
+     planet : Earth
+     tin    : 2.409621E+004
+     tout   : 2.409622E+004
+  Event 2
+     type   : 3
+     planet : None
+     tin    : 2.409621E+004
+     tout   : 2.409628E+004
+  Event 3
+     type   : 1
+     planet : Earth
+     tin    : 2.409626E+004
+     tout   : 2.409628E+004
+  Event 4
+     type   : 2
+     planet : Earth
+     tin    : 2.409626E+004
+     tout   : 2.409628E+004
+
+  Eclipse flag
+   - planet 1 Earth
+   time        0.00  	--->  flag  : 2
+   time       84.11  	--->  flag  : 2
+   time      168.22  	--->  flag  : 2
+   time      252.33  	--->  flag  : 2
+   time      336.45  	--->  flag  : 2
+   time      420.56  	--->  flag  : 2
+   time      504.67  	--->  flag  : 2
+   time      588.78  	--->  flag  : 2
+   time      672.89  	--->  flag  : 2
+   time      757.00  	--->  flag  : 2
+   time      841.12  	--->  flag  : 1
+   time      925.23  	--->  flag  : 0
+   time     1009.34  	--->  flag  : 0
+   time     1093.45  	--->  flag  : 0
+   time     1177.56  	--->  flag  : 0
+   time     1261.67  	--->  flag  : 0
+   time     1345.79  	--->  flag  : 0
+   time     1429.90  	--->  flag  : 0
+   time     1514.01  	--->  flag  : 0
+   time     1590.94  	--->  flag  : 0
+   time     1598.12  	--->  flag  : 0
+   time     1600.31  	--->  flag  : 0
+   time     1682.23  	--->  flag  : 0
+   time     1766.34  	--->  flag  : 0
+   time     1850.46  	--->  flag  : 0
+   time     1934.57  	--->  flag  : 0
+   time     2018.68  	--->  flag  : 0
+   time     2102.79  	--->  flag  : 0
+   time     2186.90  	--->  flag  : 0
+   time     2271.01  	--->  flag  : 0
+   time     2355.13  	--->  flag  : 0
+   time     2439.24  	--->  flag  : 0
+   time     2523.35  	--->  flag  : 0
+   time     2607.46  	--->  flag  : 0
+   time     2691.57  	--->  flag  : 0
+   time     2775.68  	--->  flag  : 0
+   time     2859.80  	--->  flag  : 0
+   time     2943.91  	--->  flag  : 0
+   time     3028.02  	--->  flag  : 0
+   time     3112.13  	--->  flag  : 0
+   time     3196.24  	--->  flag  : 0
+   time     3280.35  	--->  flag  : 0
+   time     3364.47  	--->  flag  : 0
+   time     3448.58  	--->  flag  : 0
+   time     3532.69  	--->  flag  : 0
+   time     3616.80  	--->  flag  : 0
+   time     3700.91  	--->  flag  : 0
+   time     3785.02  	--->  flag  : 0
+   time     3869.14  	--->  flag  : 0
+   time     3953.25  	--->  flag  : 0
+   time     4037.36  	--->  flag  : 0
+   time     4121.47  	--->  flag  : 0
+   time     4205.58  	--->  flag  : 0
+   time     4289.69  	--->  flag  : 0
+   time     4373.80  	--->  flag  : 0
+   time     4457.92  	--->  flag  : 0
+   time     4542.03  	--->  flag  : 0
+   time     4626.14  	--->  flag  : 0
+   time     4710.25  	--->  flag  : 0
+   time     4794.36  	--->  flag  : 0
+   time     4878.47  	--->  flag  : 2
+   time     4962.55  	--->  flag  : 2
+   time     5046.66  	--->  flag  : 2
+   time     5130.77  	--->  flag  : 2
+   time     5214.88  	--->  flag  : 2
+   time     5299.00  	--->  flag  : 2
+   time     5383.11  	--->  flag  : 2
+   time     5467.22  	--->  flag  : 2
+   time     5551.33  	--->  flag  : 2
+   time     5582.21  	--->  flag  : 2
+   time     5591.59  	--->  flag  : 2
+   time     5635.44  	--->  flag  : 2
+   time     5719.55  	--->  flag  : 2
+   time     5803.67  	--->  flag  : 2
+   time     5887.78  	--->  flag  : 2
+   time     5971.89  	--->  flag  : 2
+   time     6056.00  	--->  flag  : 2
+
+  Penombra ratio
+   time        0.00  	--->  ratio  : 0.000000E+000
+   time       84.11  	--->  ratio  : 0.000000E+000
+   time      168.22  	--->  ratio  : 0.000000E+000
+   time      252.33  	--->  ratio  : 0.000000E+000
+   time      336.45  	--->  ratio  : 0.000000E+000
+   time      420.56  	--->  ratio  : 0.000000E+000
+   time      504.67  	--->  ratio  : 0.000000E+000
+   time      588.78  	--->  ratio  : 0.000000E+000
+   time      672.89  	--->  ratio  : 0.000000E+000
+   time      757.00  	--->  ratio  : 0.000000E+000
+   time      841.12  	--->  ratio  : 0.000000E+000
+   time      925.23  	--->  ratio  : 0.000000E+000
+   time     1009.34  	--->  ratio  : 0.000000E+000
+   time     1093.45  	--->  ratio  : 0.000000E+000
+   time     1177.56  	--->  ratio  : 0.000000E+000
+   time     1261.67  	--->  ratio  : 0.000000E+000
+   time     1345.79  	--->  ratio  : 0.000000E+000
+   time     1429.90  	--->  ratio  : 0.000000E+000
+   time     1514.01  	--->  ratio  : 0.000000E+000
+   time     1590.94  	--->  ratio  : 0.000000E+000
+   time     1598.12  	--->  ratio  : 0.000000E+000
+   time     1600.31  	--->  ratio  : 0.000000E+000
+   time     1682.23  	--->  ratio  : 0.000000E+000
+   time     1766.34  	--->  ratio  : 0.000000E+000
+   time     1850.46  	--->  ratio  : 0.000000E+000
+   time     1934.57  	--->  ratio  : 0.000000E+000
+   time     2018.68  	--->  ratio  : 0.000000E+000
+   time     2102.79  	--->  ratio  : 0.000000E+000
+   time     2186.90  	--->  ratio  : 0.000000E+000
+   time     2271.01  	--->  ratio  : 0.000000E+000
+   time     2355.13  	--->  ratio  : 0.000000E+000
+   time     2439.24  	--->  ratio  : 0.000000E+000
+   time     2523.35  	--->  ratio  : 0.000000E+000
+   time     2607.46  	--->  ratio  : 0.000000E+000
+   time     2691.57  	--->  ratio  : 0.000000E+000
+   time     2775.68  	--->  ratio  : 0.000000E+000
+   time     2859.80  	--->  ratio  : 0.000000E+000
+   time     2943.91  	--->  ratio  : 0.000000E+000
+   time     3028.02  	--->  ratio  : 0.000000E+000
+   time     3112.13  	--->  ratio  : 0.000000E+000
+   time     3196.24  	--->  ratio  : 0.000000E+000
+   time     3280.35  	--->  ratio  : 0.000000E+000
+   time     3364.47  	--->  ratio  : 0.000000E+000
+   time     3448.58  	--->  ratio  : 0.000000E+000
+   time     3532.69  	--->  ratio  : 0.000000E+000
+   time     3616.80  	--->  ratio  : 0.000000E+000
+   time     3700.91  	--->  ratio  : 0.000000E+000
+   time     3785.02  	--->  ratio  : 0.000000E+000
+   time     3869.14  	--->  ratio  : 0.000000E+000
+   time     3953.25  	--->  ratio  : 0.000000E+000
+   time     4037.36  	--->  ratio  : 0.000000E+000
+   time     4121.47  	--->  ratio  : 0.000000E+000
+   time     4205.58  	--->  ratio  : 0.000000E+000
+   time     4289.69  	--->  ratio  : 0.000000E+000
+   time     4373.80  	--->  ratio  : 0.000000E+000
+   time     4457.92  	--->  ratio  : 0.000000E+000
+   time     4542.03  	--->  ratio  : 0.000000E+000
+   time     4626.14  	--->  ratio  : 0.000000E+000
+   time     4710.25  	--->  ratio  : 0.000000E+000
+   time     4794.36  	--->  ratio  : 0.000000E+000
+   time     4878.47  	--->  ratio  : 0.000000E+000
+   time     4962.55  	--->  ratio  : 0.000000E+000
+   time     5046.66  	--->  ratio  : 0.000000E+000
+   time     5130.77  	--->  ratio  : 0.000000E+000
+   time     5214.88  	--->  ratio  : 0.000000E+000
+   time     5299.00  	--->  ratio  : 0.000000E+000
+   time     5383.11  	--->  ratio  : 0.000000E+000
+   time     5467.22  	--->  ratio  : 0.000000E+000
+   time     5551.33  	--->  ratio  : 0.000000E+000
+   time     5582.21  	--->  ratio  : 0.000000E+000
+   time     5591.59  	--->  ratio  : 0.000000E+000
+   time     5635.44  	--->  ratio  : 0.000000E+000
+   time     5719.55  	--->  ratio  : 0.000000E+000
+   time     5803.67  	--->  ratio  : 0.000000E+000
+   time     5887.78  	--->  ratio  : 0.000000E+000
+   time     5971.89  	--->  ratio  : 0.000000E+000
+   time     6056.00  	--->  ratio  : 0.000000E+000
+
+State  4 : Planetes Fluxes Computation                                         Time :  Wed Oct 31 16:24:50 2018
+
+Time position 0  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 1  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 2  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 3  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 4  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 5  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 6  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 7  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 8  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 9  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 10  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 11  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 12  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 13  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 14  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 15  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 16  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 17  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 18  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 19  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 20  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 21  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 22  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 23  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 24  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 25  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 26  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 27  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 28  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 29  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 30  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 31  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 32  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 33  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 34  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 35  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 36  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 37  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 38  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 39  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 40  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 41  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 42  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 43  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 44  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 45  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 46  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 47  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 48  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 49  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 50  -  Sun constant on planet Earth : 1417.06 W/m2
+Time position 51  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 52  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 53  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 54  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 55  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 56  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 57  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 58  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 59  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 60  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 61  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 62  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 63  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 64  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 65  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 66  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 67  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 68  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 69  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 70  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 71  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 72  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 73  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 74  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 75  -  Sun constant on planet Earth : 1417.07 W/m2
+Time position 76  -  Sun constant on planet Earth : 1417.07 W/m2
+State  5 : Network Outputs Generation                                          Time :  Wed Oct 31 16:24:55 2018
+
+
+
+
+Execution completed on Wed Oct 31 16:24:55 2018
+
+
+
+
